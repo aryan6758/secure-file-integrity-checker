@@ -1,0 +1,9 @@
+algorithm: "sha256"
+db_path: "my_integrity.db"
+excluded_dirs:
+  - ".git"
+  - "venv"
+  - ".idea"
+excluded_files:
+  - ".DS_Store"
+  - "desktop.ini"
